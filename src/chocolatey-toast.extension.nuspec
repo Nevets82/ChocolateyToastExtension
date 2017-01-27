@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>chocolatey-toast.extension</id>
+    <title>Chocolatey Toast Extension (Unofficial)</title>
+    <version>1.0.0</version>
+    <authors>Steven Lietaer</authors>
+    <owners>Steven Lietaer</owners>
+    <summary>Allows Chocolatey packages to display toast messages to report their (un)installation progress.</summary>
+    <description>Allows Chocolatey packages to display toast messages to report their (un)installation progress.</description>
+    <projectUrl>https://github.com/Nevets82/ChocolateyToastExtension</projectUrl>
+    <packageSourceUrl>https://github.com/Nevets82/ChocolateyToastExtension</packageSourceUrl>
+    <projectSourceUrl>https://github.com/Nevets82/ChocolateyToastExtension</projectSourceUrl>
+    <docsUrl>https://github.com/Nevets82/ChocolateyToastExtension</docsUrl>
+    <bugTrackerUrl>https://github.com/Nevets82/ChocolateyToastExtension/issues</bugTrackerUrl>
+    <tags>chocolatey-toast extension toast</tags>
+    <copyright>(c) 2016-2017 Steven Lietaer, All rights reserved.</copyright>
+    <licenseUrl>https://github.com/Nevets82/ChocolateyToastExtension/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://nevets82.github.io/static/images/chocolatey.png</iconUrl>
+    <dependencies>
+      <dependency id="chocolatey" version="0.10.3" />
+    </dependencies>
+    <releaseNotes>https://github.com/Nevets82/ChocolateyToastExtension</releaseNotes>
+  </metadata>
+  <files>
+    <file src="extensions\**" target="extensions" />
+  </files>
+</package>
