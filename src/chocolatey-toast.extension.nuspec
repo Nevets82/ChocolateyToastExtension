@@ -4,7 +4,7 @@
   <metadata>
     <id>chocolatey-toast.extension</id>
     <title>Chocolatey Toast Extension (Unofficial)</title>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <authors>Steven Lietaer</authors>
     <owners>Steven Lietaer</owners>
     <summary>Allows Chocolatey packages to display toast messages to report their (un)installation progress.</summary>
@@ -15,12 +15,12 @@
     <docsUrl>https://github.com/Nevets82/ChocolateyToastExtension</docsUrl>
     <bugTrackerUrl>https://github.com/Nevets82/ChocolateyToastExtension/issues</bugTrackerUrl>
     <tags>chocolatey-toast extension toast</tags>
-    <copyright>(c) 2016-2017 Steven Lietaer, All rights reserved.</copyright>
+    <copyright>(c) 2016-2019 Steven Lietaer, All rights reserved.</copyright>
     <licenseUrl>https://github.com/Nevets82/ChocolateyToastExtension/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>http://nevets82.github.io/static/images/chocolatey.png</iconUrl>
     <dependencies>
-      <dependency id="chocolatey" version="0.10.3" />
+      <dependency id="chocolatey" version="0.9.9.12" />
     </dependencies>
     <releaseNotes>https://github.com/Nevets82/ChocolateyToastExtension</releaseNotes>
   </metadata>

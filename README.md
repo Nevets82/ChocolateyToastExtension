@@ -42,6 +42,12 @@ PS> choco install chocolatey-toast.extension
 
 ## Change Log
 
+### Version 1.0.1
+
+#### Bug Fixes
+
+* Fixed issues with toast not showing due to a Windows update
+
 ### Version 1.0.0
 
 #### New Features
